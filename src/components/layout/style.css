@@ -1,0 +1,7 @@
+.layout-box{
+    max-width: 1200px;
+    min-width: 800px;
+    width: 100vw;
+    background-color: #eee;
+    align-items: center;
+}

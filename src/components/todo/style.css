@@ -1,0 +1,54 @@
+.wrap{
+  display: flex;
+}
+
+.todoBox {
+  text-align: center;
+    border: 2px solid rgb(119, 228, 113);
+    border-radius: 30px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .removebtn {
+    background-color: cornsilk;
+    color: limegreen;
+    border: 2px solid rgb(119, 228, 113);
+    border-radius: 15px;
+    padding: 8px;
+  }
+  
+  .removebtn:hover {
+    background-color: rgb(119, 228, 113);
+    color : white;
+  }
+  
+  
+  .donebtn {
+    background-color: cornsilk;
+    border: 2px solid rgb(119, 228, 113);
+    border-radius: 15px;
+    color: limegreen;
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  .donebtn:hover {
+    background-color: rgb(119, 228, 113);
+    color : white;
+  }
+
+  .canclebtn {
+    background-color: cornsilk;
+    border: 2px solid  rgb(119, 228, 113);
+    border-radius: 15px;
+    color: limegreen;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .canclebtn:hover {
+    background-color: rgb(119, 228, 113);
+    color : white;
+  }

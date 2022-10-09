@@ -1,0 +1,16 @@
+.heder-wrap{
+    background-color: rgb(255, 251, 236);
+    width: 100%; 
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+
+.left-box {
+    width: 100%;
+    text-align: left;
+    height: 15spx;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.input-box{
+    width: 800px;
+    margin: 20px auto 20px auto;
+    
+  }
+  
+.title-input {
+    width: 40%;
+    height: 35px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}
+.body-input{
+    width: 40%;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}
+
+.add-btn {
+    width: 50px;
+    height:40px;
+    color:  rgb(63, 173, 50);
+    background-color: cornsilk;
+    padding: 5px;
+    border: 2px solid rgb(140, 221, 131);
+    border-radius: 5px;
+}
+.add-btn:hover {
+    color: white;
+    background-color: rgb(140, 221, 131);
+}
