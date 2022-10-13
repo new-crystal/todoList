@@ -6,8 +6,8 @@ import { getTodos } from "../redux/modules/ModifyTodo";
 
 const Detail = () => {
   const dispatch = useDispatch();
-  const todoList = useSelector((state) => state.todos.list);
   const navigate = useNavigate();
+  const todoList = useSelector((state) => state.todos.list);
   const { id } = useParams();
   const todos = todoList.find((todo) => todo.id == id);
 
