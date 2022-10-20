@@ -17,7 +17,7 @@ const Detail = () => {
 
   return (
     <DetailBox>
-      <p>id : {todos.id}</p>
+      <p>{todos.id}</p>
       <h1>{todos.title}</h1>
       <hr></hr>
       <h3>{todos.body}</h3>
