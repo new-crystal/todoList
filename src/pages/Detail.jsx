@@ -19,7 +19,6 @@ const Detail = () => {
     <DetailBox>
       <p>{todos.id}</p>
       <h1>{todos.title}</h1>
-      <hr></hr>
       <h3>{todos.body}</h3>
       <DetailBut
         onClick={() => {
